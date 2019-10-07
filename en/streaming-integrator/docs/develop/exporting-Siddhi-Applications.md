@@ -9,6 +9,7 @@ To export Siddhi files as Docker or Kubernetes artifacts, follow the steps given
 1. Start the Streaming Integrator Tooling buy issueing one of the following commands from the `<SI_HOME>/bin` directory.
     - For Windows: `tooling.bat`
     - For Linux: `./tooling.sh`
+
     The Streaming Integrator Tooling opens as shown below.
     ![Streaming Integrator Welcome Page](../images/exporting-Siddhi-Applications/SI-Welcome_Page.png)
 
@@ -16,9 +17,9 @@ To export Siddhi files as Docker or Kubernetes artifacts, follow the steps given
 
 3. From the **Export** menu, select **For Docker**. The following wizard will be popped up.
 
-![Export as Docker/Kubernetes Menu](../images/exporting-Siddhi-Applications/Export_Docker_k8s_Menu.png)
+    ![Export as Docker/Kubernetes Menu](../images/exporting-Siddhi-Applications/Export_Docker_k8s_Menu.png)
 
-![Export Siddhi App for Docker image dialog](../images/exporting-Siddhi-Applications/Export_Docker_1.png)
+    ![Export Siddhi App for Docker image dialog](../images/exporting-Siddhi-Applications/Export_Docker_1.png)
 
 4. From the **Step 1: Select Siddhi Apps** select a set of Siddhi apps to be included in the docker image. You can select one or more Siddhi apps.
 
@@ -70,6 +71,7 @@ To export Siddhi files as Docker or Kubernetes artifacts, follow the steps given
 1. Start the Streaming Integrator Tooling buy issueing one of the following commands from the `<SI_HOME>/bin` directory.
     - For Windows: `tooling.bat`
     - For Linux: `./tooling.sh`
+
     The Streaming Integrator Tooling opens as shown below.
     ![Streaming Integrator Welcome Page](../images/exporting-Siddhi-Applications/SI-Welcome_Page.png)
 
@@ -77,9 +79,9 @@ To export Siddhi files as Docker or Kubernetes artifacts, follow the steps given
 
 3. From the **Export** menu, select **For Kubenetes**. The following wizard will be popped up.
 
-![Export as Docker/Kubernetes Menu](../images/exporting-Siddhi-Applications/Export_Docker_k8s_Menu.png)
+    ![Export as Docker/Kubernetes Menu](../images/exporting-Siddhi-Applications/Export_Docker_k8s_Menu.png)
 
-![Export Siddhi App for Docker image dialog](../images/exporting-Siddhi-Applications/Export_k8s_1.png)
+    ![Export Siddhi App for Docker image dialog](../images/exporting-Siddhi-Applications/Export_k8s_1.png)
 
 4. From the **Step 1: Select Siddhi Apps** select a set of Siddhi apps to be included in the docker image. You can select one or more Siddhi apps.
 
@@ -120,7 +122,7 @@ To export Siddhi files as Docker or Kubernetes artifacts, follow the steps given
     └── siddhi-process.yaml
     ```
 
-15. Once the ZIP is downloaded, you can extract and open the `<ZIP_HOME>/siddhi-process.yaml` via a text editor to modify the SiddhiProcess configuration.<br /><br />
+15. Once the ZIP is downloaded, you can extract and open the `<ZIP_HOME>/siddhi-process.yaml` via a text editor to modify the SiddhiProcess configuration.<br />
 
     For more information on **SiddhiProcess** Kubernetes configuration, please refer [Siddhi 5.1 as a Kubernetes Microservice](https://siddhi.io/en/v5.1/docs/siddhi-as-a-docker-microservice/) documentation.<br /><br />
 
